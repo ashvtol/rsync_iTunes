@@ -47,6 +47,16 @@ That is what this program does!
 
 you will be prompted to give your Username & DESTINATION_TO_COPY
  ```
+Caution
+ ```
+ DESTINATION_TO_COPY  ->storage/sdcard1/
+ 					  ->storage/sdcard0/
+ 					  ->storage/emulated/0
+ 					  ->storage/9016-4EF/ (this was mine ... can be used by USING ESPLORER)
+ 					 or whatever is the name of your sdcard.
+
+ DESTINATION_TO_COPY can diifer on a LINUX machine, to know your destination(after you connected your phone), drag the folder(inside your phone, where you wish to copy) into the Linux terminal.
+ ```
 
  ## OR MANUALLY do the following
 
@@ -61,15 +71,7 @@ you will be prompted to give your Username & DESTINATION_TO_COPY
 
  save the file and close it.
  ```	
- Caution
- ```
- DESTINATION_TO_COPY ->storage/sdcard1 
- 					  ->storage/sdcard0
- 					  ->storage/9016-4EF (this was mine ... can be used by USING ESPLORER)
- 					 or whatever is the name of your sdcard.
 
- DESTINATION_TO_COPY can diifer on a LINUX machine, to know your destination(after you connected your phone), drag the folder(inside your phone, where you wish to copy) into the Linux terminal.
- ```
 
 2. Also, open get_phone_log.sh
  replace DESTINATION_TO_COPY to your reqirements
