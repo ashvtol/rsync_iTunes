@@ -38,20 +38,19 @@ That is what this program does!
  If you've reached till here, then it's a cake-walk from here.
  1. Download the repository and unzip it.
  2. In terminal, navigate to the unzipped folder.
- 3. Then log your existing music library by using with your username
- ```
- in the terminal, inside the musync folder hit:
 
- python3 _1_music_log_generator_.py  __YOUR__USER__NAME
+ ### YOU CAN EITHER RUN _credentials_.py using python3 
+ ```
+ In your terminal, just hit
  
- Example:
- python3 _1_music_log_generator_.py  theDrgonSlayer
- ```
- You should see the output, something like this:
- <img src="https://github.com/ashvtol/musync/blob/master/images/log.png" width="691px"></img>
+ python3 _credentials_.py
 
- 4. Once the log is saved, now all you have to do is run the make command
- but before that provide the arguments to the files in the make file, suitable to your machine.
+you will be prompted to give your Username & DESTINATION_TO_COPY
+ ```
+
+ ## OR MANUALLY do the following
+
+ 1. You have to do is run the make command but before that provide the arguments to the files in the make file, suitable to your machine.
  ```
  Open make file and make the following changes:
  
@@ -92,7 +91,7 @@ adb shell find DESTINATION_TO_COPY -name *.mp3* > phone_log
 
  ```
 
- 5. When even-ever you feel to copy the new songs in your library, all you gotta do is
+ 3. When even-ever you feel to copy the new songs in your library, all you gotta do is
  navigate to the musync solder in the terminal
  ```
  just hit:
