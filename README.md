@@ -1,4 +1,4 @@
-# Musync (like rsync)
+# rsync_iTunes
 
 Sync Music from iTunes to your Android Device
 
