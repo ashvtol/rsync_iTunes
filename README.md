@@ -71,7 +71,7 @@ you will be prompted to give your Username & DESTINATION_TO_COPY
  DESTINATION_TO_COPY can diifer on a LINUX machine, to know your destination(after you connected your phone), drag the folder(inside your phone, where you wish to copy) into the Linux terminal.
  ```
  ```
- Also, open get_phone_log.sh
+2. Also, open get_phone_log.sh
  replace DESTINATION_TO_COPY to your reqirements
 
 General: 
@@ -91,7 +91,7 @@ adb shell find DESTINATION_TO_COPY -name *.mp3* > phone_log
 
  ```
 
- 3. When even-ever you feel to copy the new songs in your library, all you gotta do is
+3. When even-ever you feel to copy the new songs in your library, all you gotta do is
  navigate to the musync solder in the terminal
  ```
  just hit:
