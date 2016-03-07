@@ -50,7 +50,7 @@ you will be prompted to give your Username & DESTINATION_TO_COPY
 
  ## OR MANUALLY do the following
 
- 1. You have to do is run the make command but before that provide the arguments to the files in the make file, suitable to your machine.
+1. You have to do is run the make command but before that provide the arguments to the files in the make file, suitable to your machine.
  ```
  Open make file and make the following changes:
  
