@@ -49,7 +49,7 @@ you will be prompted to give your Username & DESTINATION_TO_COPY
  ```
 Caution
  ```
- DESTINATION_TO_COPY  ->storage/sdcard1/
+ DESTINATION_TO_COPY ->storage/sdcard1/
  					  ->storage/sdcard0/
  					  ->storage/emulated/0
  					  ->storage/9016-4EF/ (this was mine ... can be used by USING ESPLORER)
