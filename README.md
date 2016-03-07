@@ -1,6 +1,7 @@
 # Musync
 
 Sync Music from iTunes to your Android Device
+Provides rsync like functionality with the need of setting up SSH servers on a MAC
 
 ###What does this program do ?
 Pushes all the songs that are not on your phone to your android device.
