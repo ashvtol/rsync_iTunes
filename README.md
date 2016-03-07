@@ -73,7 +73,7 @@ Caution
  ```	
 
 
-2. Also, open get_phone_log.sh
+2. Also, open ```get_phone_log.sh```
  replace DESTINATION_TO_COPY to your reqirements
  ```
  General: 
