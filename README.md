@@ -4,7 +4,7 @@ Sync Music from iTunes to your Android Device
 
 
 ###What does this program do ?
-Pushes all the songs that are not on your phone to your android device. Provides rsync like functionality without the need of setting up SSH server.
+Pushes all the songs that are not on your phone to your android device. Provides rsync like functionality without the need of setting up a SSH server.
 
 ###PUSHES ONLY THE NEW SONGS FROM YOUR EXISTING MUSIC LIBRARY TO YOUR ANDROID DEVICE
 That is what this program does!
