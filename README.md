@@ -70,13 +70,13 @@ you will be prompted to give your Username & DESTINATION_TO_COPY
 
  DESTINATION_TO_COPY can diifer on a LINUX machine, to know your destination(after you connected your phone), drag the folder(inside your phone, where you wish to copy) into the Linux terminal.
  ```
- ```
+
 2. Also, open get_phone_log.sh
  replace DESTINATION_TO_COPY to your reqirements
+ ```
+ General: 
 
-General: 
-
-adb shell find DESTINATION_TO_COPY -name *.mp3* > phone_log 
+ adb shell find DESTINATION_TO_COPY -name *.mp3* > phone_log 
 
  Example:
 
