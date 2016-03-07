@@ -39,7 +39,7 @@ That is what this program does!
  1. Download the repository and unzip it.
  2. In terminal, navigate to the unzipped folder.
 
- ### YOU CAN EITHER RUN __credentials__.py using python3 
+ ### YOU CAN EITHER RUN "_credentials_.py" using python3 
  ```
  In your terminal, just hit
  
@@ -64,7 +64,7 @@ Caution
  ```
  Open make file and make the following changes:
  
- python3 _2_push_diffreneces_to_shell_.py __YOUR__USER__NAME DESTINATION_TO_COPY
+ python3 _2_push_diffreneces_to_shell_.py" __YOUR__USER__NAME DESTINATION_TO_COPY
  
  Example:
  python3 _2_push_diffreneces_to_shell_.py theDragonSlayer storage/sdcard1/Music
