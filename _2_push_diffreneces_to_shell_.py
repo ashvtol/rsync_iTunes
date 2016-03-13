@@ -50,7 +50,7 @@ def parsepath(oldpath):
 
 
 #####################################################
-############## Map the old entries ##################
+############## Map the phone entries ##################
 with open('./phone_log',"r", encoding="utf-8") as f:
     plog = {}
     for line in f:
@@ -89,7 +89,7 @@ for filename in glob.glob('/Users/'+name+'/Music/iTunes/iTunes Media/Music/**/*.
         ############################################################################
 
         ################## Writing to shell script and updating old_log ############	
-        shell.write(('adb push ' + path + ' /'+phone_storage+'\n').encode('utf-8'));
+        shell.write(('adb push -p ' + path + ' /'+phone_storage+'\n').encode('utf-8'));
         name = (name[-1] + '\n').encode('utf-8')
         updatedct = updatedct + 1;
 print("|------------------------------------------------------------------------|");

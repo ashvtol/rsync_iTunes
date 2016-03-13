@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /Users/Az/Dropbox/Projects/rsync_iTunes_Android/
+python3 _credentials_.py $1 $2
