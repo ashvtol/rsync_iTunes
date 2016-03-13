@@ -51,7 +51,7 @@ Caution
  DESTINATION_TO_COPY ->storage/sdcard1/
  					  ->storage/sdcard0/
  					  ->storage/emulated/0
- 					  ->storage/9016-4EF/ (this was mine ... can be used by USING ESPLORER)
+ 					  ->storage/9016-4EF/ (this was mine ... can be found by using any file explorer)
  					 or whatever is the name of your sdcard.
 
  DESTINATION_TO_COPY can diifer on a LINUX machine, to know your destination(after you connected your phone), drag the folder(inside your phone, where you wish to copy) into the Linux terminal.
