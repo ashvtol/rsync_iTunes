@@ -43,7 +43,7 @@ That is what this program does!
  ```
  In your terminal, just hit
  
- python3 _credentials_.py
+ python3 _credentials_.py YOUR_USERNAME DESTINATION_TO_COPY
 
 you will be prompted to give your Username & DESTINATION_TO_COPY
  ```
