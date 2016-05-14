@@ -13,7 +13,7 @@ That is what this program does!
  Prerequisite installation/requirements
 
  1. Android Stand-alone SDK Tools only link <a href="http://developer.android.com/sdk/installing/index.html">here</a>
- 2. Python v.3.X
+ 2. Python 3.5.X
  3. Make Utility
  4. Linux/Unix based environment to support shell scripts
 
