@@ -66,8 +66,8 @@ else:
 	########### push.sh could have been written earlier in the make file #####################
 	########### Call to the make file. #######################################################
 	########### This displays the process in the terminal as it gets executed. ###############
-	p  = subprocess.Popen('make', stdout=subprocess.PIPE, shell=True)
-	print(p.stdout.read().decode())
+		p  = subprocess.Popen('make', stdout=subprocess.PIPE, shell=True)
+		print(p.stdout.read().decode())
 
 
 
