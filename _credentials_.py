@@ -54,10 +54,11 @@ else:
 
 	make = open('./Makefile','w')
 	make.write("all:\n")
-	print("Want to Delete del_annoying_songs ? > Y/N\n");
+	print("Want to Delete del_annoying_songs ? > Y/N");
 	ans = str(input());
 	if(ans == "n" or ans == "No" or ans == "0" or ans == "no"):
 		make.close();
+		print("Quiting ... ");
 	else:
 		make.write("\tclear\t\n\tpython3 del_annoying_songs.py " + username +" " + storage + "\n")
 		make.write("\tsh del.sh\n")
