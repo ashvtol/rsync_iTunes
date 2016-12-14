@@ -50,7 +50,7 @@ def parsepath(oldpath):
 
 
 #####################################################
-############## Map the phone entries ##################
+############## Map the phone entries ################
 with open('./phone_log',"r", encoding="utf-8") as f:
     plog = {}
     for line in f:

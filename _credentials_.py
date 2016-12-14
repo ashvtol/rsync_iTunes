@@ -48,8 +48,20 @@ else:
 	make = open('./Makefile','w')
 	make.write("all:\n")
 	make.write("\tsh push.sh\n")
-	make.close()
+	make.close();
+	p  = subprocess.Popen('make', stdout=subprocess.PIPE, shell=True)
+	print(p.stdout.read().decode())
 
+	make = open('./Makefile','w')
+	make.write("all:\n")
+	print("Want to Delete del_annoying_songs ? > Y/N\n");
+	ans = str(input());
+	if(ans == "n" or ans == "No" or ans == "0" or ans == "no"):
+		make.close();
+	else:
+		make.write("\tclear\t\n\tpython3 del_annoying_songs.py " + username +" " + storage + "\n")
+		make.write("\tsh del.sh\n")
+		make.close()
 	########### Make file rewritten, don't know why I did this. ##############################
 	########### push.sh could have been written earlier in the make file #####################
 	########### Call to the make file. #######################################################
