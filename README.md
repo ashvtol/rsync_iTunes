@@ -3,12 +3,12 @@
 Sync Music from iTunes to your Android Device
 
 
-###What does this program do ?
-Pushes all the songs that are not on your phone to your android device. Provides rsync like functionality without the need of setting up a SSH server.
+###What does this program do?
+Pushes all the songs that are not on your phone to your android device. Provides rsync like functionality without the need of setting up an SSH server.
 
 That is what this program does!
 
-###How to run it ?
+###How to run it?
 
  Prerequisite installation/requirements
 
@@ -18,7 +18,7 @@ That is what this program does!
  4. Linux/Unix based environment to support shell scripts
 
 
- After you installed 1. Android Stand-alone SDK Tools place it you Documents folder, make sure to set the adb path, this is how it's done on a MAC
+ After you installed 1. Android Stand-alone SDK Tools place it your Documents folder, make sure to set the adb path, this is how it's done on a MAC
  ```
  1. Open Your Terminal
 
@@ -35,9 +35,9 @@ That is what this program does!
  Try running 'adb' command in your terminal, you should see adb running.
  Run 'adb devices' to see the list of connected devices.
 
- If you've reached till here, then it's a cake-walk from here.
+ If you've reached till here, then it's a cakewalk from here.
  1. Download the repository and unzip it.
- 2. In terminal, navigate to the unzipped folder.
+ 2. In the terminal, navigate to the unzipped folder.
 
  ### YOU CAN EITHER RUN ```_credentials_.py``` using python3 
  ```
@@ -49,17 +49,17 @@ That is what this program does!
 Caution
  ```
  DESTINATION_TO_COPY ->storage/sdcard1/
- 					  ->storage/sdcard0/
- 					  ->storage/emulated/0
- 					  ->storage/9016-4EF/ (this was mine ... can be found by using any file explorer)
- 					 or whatever is the name of your sdcard.
+                       ->storage/sdcard0/
+                       ->storage/emulated/0
+                       ->storage/9016-4EF/ (this was mine ... can be found by using any file explorer)
+                      or whatever is the name of your sdcard.
 
- DESTINATION_TO_COPY can diifer on a LINUX machine, to know your destination(after you connected your phone), drag the folder(inside your phone, where you wish to copy) into the Linux terminal.
+ DESTINATION_TO_COPY can differ on a LINUX machine, to know your destination(after you connected your phone), drag the folder(inside your phone, where you wish to copy) into the Linux terminal.
  ```
 
  ## OR MANUALLY do the following
 
-1. You have to do is run the make command but before that provide the arguments to the files in the make file, suitable to your machine.
+1. You have to do is run the make command but before that provide the arguments to the files in the make file, suitable for your machine.
  ```
  Open make file and make the following changes:
  
@@ -69,7 +69,7 @@ Caution
  python3 _2_push_diffreneces_to_shell_.py theDragonSlayer storage/sdcard1/Music
 
  save the file and close it.
- ```	
+ ```    
 
 
 2. Also, open ```get_phone_log.sh```
@@ -105,9 +105,8 @@ Caution
  Final Output, after the new songs are pushed:
  <img src="https://github.com/ashvtol/musync/blob/master/images/end.png" width="595px"></img>
 
- That's it folks. Fork it! ..... 
+ That's it, folks. Fork it! ..... 
  Feel free to ask anything.
-
 
 
 
